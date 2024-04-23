@@ -1,0 +1,107 @@
+/* GENERAL STYLES */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GENERAL STYLES */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 100rem;
+  height: 800px;
+  background-color: rgb(127, 29, 173);
+}
+.container .nav {
+  margin-top: -40rem;
+}
+.container .nav_h {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+.container .nav_h .nav_m {
+  color: rgb(255, 254, 254);
+  font-size: 20px;
+  padding: 30px;
+  font-family: sans-serif;
+}
+.container .new {
+  position: relative;
+  right: 12.5rem;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: aliceblue;
+  margin-top: -40rem;
+}
+.container .btn {
+  margin-top: -40rem;
+  text-align: center;
+  font-size: 1.7rem;
+  width: 3.5rem;
+  height: 55px;
+  border-radius: 10px;
+  background-color: black;
+  color: aliceblue;
+}
+.container .box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(127, 29, 173);
+}
+.container .h1 {
+  display: flex;
+  margin-top: -70rem;
+  width: 800px;
+  height: 80px;
+  color: aliceblue;
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  padding: 115px;
+}
+.container .h3 {
+  margin-top: -44rem;
+  margin-left: -26.5rem;
+  width: 80rem;
+  height: 80px;
+  color: aliceblue;
+  font-size: 1.3rem;
+  font-family: sans-serif;
+}
+.container .butn {
+  display: block;
+  margin-left: -28rem;
+  margin-top: -17rem;
+  background-color: black;
+  color: aliceblue;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.534);
+  width: 165px;
+  height: 56px;
+  padding: 20px 50px;
+  border-radius: 8px;
+}
+.container .krasofka {
+  margin-top: -48rem;
+  padding: 100px;
+}
+.container .boox {
+  display: flex;
+  align-items: center;
+  margin-left: -64rem;
+  justify-content: space-around;
+  background-color: rgb(127, 29, 173);
+}
+.container .boox .strel {
+  z-index: -1;
+}
+.container .sss {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: -15rem;
+  font-size: 1.3rem;
+}/*# sourceMappingURL=style.css.map */
